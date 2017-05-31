@@ -88,12 +88,26 @@ a:hover {
   letter-spacing: 2px;
 }
 
+[class*="col-"] {
+  min-height: 7px;
+  padding: 30px;
+}
+
+.col-4 {
+  /* (4/12)*100 */
+  width: 33.333333%;
+}
+
 #work {
   text-align: center;
   padding: 70px 7px;
 }
 
 .container2 {
+  text-align: center;
+}
+
+.container3 {
   text-align: center;
 }
 
